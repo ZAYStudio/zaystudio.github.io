@@ -94,11 +94,12 @@ main {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    flex: 1;
+    flex: 1 1 280px;
     min-width: 280px;
-    max-width: 30%; /* Untuk tata letak 3 kolom */
+    max-width: calc(33.333% - 25px);
     text-align: center;
     border: 1px solid #555;
+    box-sizing: border-box; /* Pastikan ini ada! */
 }
 
 .member-card h3 {
